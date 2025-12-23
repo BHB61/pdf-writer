@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.pdfbox:pdfbox:2.0.30'
+}
+
+application {
+    mainClass = 'de.hft_stuttgart.ip1.Main'
+}
